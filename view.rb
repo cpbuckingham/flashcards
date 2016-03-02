@@ -9,10 +9,9 @@ module View
 
     def welcome(name)
       spacing
-      puts "Welcome to flashy flashcards"
+      puts "Welcome to Cam's flashcards"
       puts "The current deck is:"
       puts name.blue
-      spacing
     end
 
     def get_input
